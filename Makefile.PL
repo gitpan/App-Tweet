@@ -11,6 +11,7 @@ WriteMakefile(
     PL_FILES      => {},
     PREREQ_PM     => {
         'Config::YAML'    => 0,
+        'Crypt::Blowfish' => 0,
         'Crypt::CBC'      => 0,
         'File::HomeDir'   => 0,
         'File::Slurp'     => 0,

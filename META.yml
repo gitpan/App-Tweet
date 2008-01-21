@@ -1,11 +1,12 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         App-Tweet
-version:      1.0
+version:      1.01
 version_from: lib/App/Tweet.pm
 installdirs:  site
 requires:
     Config::YAML:                  0
+    Crypt::Blowfish:               0
     Crypt::CBC:                    0
     File::HomeDir:                 0
     File::Slurp:                   0

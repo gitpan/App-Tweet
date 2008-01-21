@@ -20,7 +20,7 @@ Log::Log4perl->easy_init($ERROR);
 use constant TWEET_CONFIG_FILE => '.tweet';
 use constant TWEET_CIPHER_FILE => '.teewt';
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 sub run {
     my ( $class, %args ) = @_;
